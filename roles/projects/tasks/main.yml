@@ -69,6 +69,6 @@
   service: name=httpd state=started 
   
 - name: Copy the code from repository
-  git: repo={{ repository }} force=yes
+  command: git clone {{ repository }} 
 
 
