@@ -1,8 +1,0 @@
----
-mysql_port: 3306
-dbname: ecomdb
-dbuser: ecomuser
-dbpassword: ecompassword
-httpd_port: 80
-repository: https://github.com/mahbub-11405/Ecommerce-website.git
-
