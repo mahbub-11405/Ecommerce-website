@@ -68,7 +68,6 @@
 - name: http service state
   service: name=httpd state=started 
   
-- name: Copy the code from repository
-  command: git clone {{ repository }} 
+
 
 
