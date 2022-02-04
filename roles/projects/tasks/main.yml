@@ -69,11 +69,6 @@
   service: name=httpd state=started 
   
 - name: Copy the code from repository
-  git: repo={{ repository }} dest=/var/www/html/  force=yes
+  git: repo={{ repository }} force=yes
 
-- name: Creates the index.php file
-  copy: src=templates/index.php.j2 dest=/var/www/html/index.php
-
-- name: Update remote server ip in index.php
-  command: sed -i 's/172.20.1.101/192.168.56.103/g' /var/www/html/index.php
 
