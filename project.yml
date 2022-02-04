@@ -1,5 +1,0 @@
--
-  name: Project
-  hosts: AJWDB-CentOs7
-  roles:
-    - projects
